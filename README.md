@@ -1,16 +1,16 @@
-# Информация о наборе данных
-Датасет, который используется для обучения модели, можно найти на kaggle. Вот ссылка: https://www.kaggle.com/datasets/landlord/handwriting-recognition.
-# Инструкция по скачиванию данного набора в среду Colab
-1) Создать API-token. Для этого необходимо:
-   - Зарегистрироваться на kaggle (если нет аккаунта)
-   - Зайти в настройки (Settings)
-   - Промотать ниже, где будет надпись API
-   - Далее нажать Create new token.
-   - В результате скачается json файл
-2) Полученный json перенести в Colab
-3) Уже в среде colab установить пакет kaggle командой !pip install kaggle
-4) Создать папку командой !mkdir ~/.kaggle
-5) Перенести в эту папку json файл !cp kaggle.json ~/.kaggle/<Имя вашего json файла>
-6) Задаем права права файлу командой !chmod 600 ~/.kaggle/<Имя вашего json файла>
-7) Скачиваем набор данных в среду командой !kaggle datasets download landlord/handwriting-recognition
-8) Скачается zip архив. Его можно разархивировать командой !unzip handwriting-recognition.zip
+# Dataset information
+The dataset used to train the model can be found on kaggle. Here is the link: https://www.kaggle.com/datasets/landlord/handwriting-recognition.
+# Instructions for downloading this dataset into the Colab environment
+1) Create an API token. To do this, you need to:
+- Register on kaggle (if you don't have an account)
+- Go to Settings
+- Scroll down to where the API label will appear
+- Then click "Create new token".
+- As a result, a json file will be downloaded
+2) Transfer the resulting json to Colab
+3) Install the kaggle package in the colab environment using the command !pip install kaggle
+4) Create a folder using the command !mkdir ~/.kaggle
+5) Transfer the json file to this folder !cp kaggle.json ~/.kaggle/<Name of your json file>
+6) Set the file rights using the command !chmod 600 ~/.kaggle/<Name of your json file>
+7) Download the dataset to the environment using the command !kaggle datasets download landlord/handwriting-recognition
+8) A zip archive will be downloaded. It can be unzipped using the command !unzip handwriting-recognition.zip
